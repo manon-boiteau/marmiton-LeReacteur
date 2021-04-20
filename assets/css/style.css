@@ -36,28 +36,32 @@ section {
 p {
   line-height: 22px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 /* -------------- */
 /* TITLES */
 /* -------------- */
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
 h1 {
   font-size: 50px;
-  font-weight: bold;
   text-align: center;
   color: var(--h1-font-color);
 }
 
 h2 {
   font-size: 30px;
-  font-weight: bold;
   color: var(--h2-font-color);
   margin: 70px 0 20px 0;
 }
 
 h3 {
   font-size: 18px;
-  font-weight: bold;
   color: #393c6c;
   line-height: 22px;
 }
@@ -120,7 +124,7 @@ div[id="images"] {
 
 /* Liste */
 #ingredients ul li {
-  list-style: disc;
+  list-style: disc; /* Because of the reset file */
   line-height: 22px;
   margin-left: 20px;
 }

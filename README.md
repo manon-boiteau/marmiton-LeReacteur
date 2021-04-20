@@ -11,7 +11,7 @@ Marmiton is France’s leading digital brand focusing on food and cooking. Featu
 
 To code the frontend of Marmiton's recipe page as simple as possible, without grid or Flexbox.
 
-<img src="/marmitom/assets/img/marmiton-final.png" width="450" alt="recipe-page">
+![Marmiton recipe page](/marmitom/assets/img/marmiton-final.png)
 
 ## Languages
 
