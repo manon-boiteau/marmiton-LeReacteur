@@ -1,0 +1,153 @@
+/* -------------- */
+/* FONTS */
+/* -------------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* -------------- */
+/* VARIABLES */
+/* -------------- */
+:root {
+  --main-font-color: #6c6c6c;
+  --h1-font-color: #393c6c;
+  --h2-font-color: #f3735f;
+}
+
+/* -------------- */
+/* GENERAL RULES */
+/* -------------- */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+  color: var(--main-font-color);
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+/* -------------- */
+/* TITLES */
+/* -------------- */
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--h1-font-color);
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--h2-font-color);
+  margin: 70px 0 20px 0;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #393c6c;
+  line-height: 22px;
+}
+
+/* -------------- */
+/* HEADER */
+/* -------------- */
+header {
+  background-color: white;
+  border-bottom: solid 1px #f3735f;
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+header img {
+  width: 200px;
+  margin-top: 22px;
+}
+
+/* -------------- */
+/* MAIN */
+/* -------------- */
+
+/* Baseline */
+.baseline {
+  text-align: center;
+  line-height: 50px;
+  font-size: 12px;
+}
+
+/* Time area */
+.time {
+  background-color: #8a98b1;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px 0;
+}
+
+/* Images */
+div[id="images"] {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#images img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#images .img {
+  margin-right: 30px;
+}
+
+/* Liste */
+#ingredients ul li {
+  list-style: disc;
+  line-height: 22px;
+  margin-left: 20px;
+}
+
+/* Préparation */
+#preparation p {
+  line-height: 22px;
+  color: black;
+}
+
+/* -------------- */
+/* FOOTER */
+/* -------------- */
+footer {
+  padding: 100px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f3735f;
+}
+
+footer a:hover {
+  font-weight: bold;
+}
