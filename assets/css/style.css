@@ -20,6 +20,8 @@ body {
   font-size: 16px;
   background-color: #efefef;
   color: var(--main-font-color);
+  -webkit-font-smoothing: antialiased; /* font smoothing on Chrome, Safari, Edge & Opera */
+  -moz-osx-font-smoothing: grayscale; /* font smoothing on Firefox */
 }
 
 .container {
