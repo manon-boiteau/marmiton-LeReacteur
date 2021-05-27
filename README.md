@@ -1,20 +1,28 @@
-# marmiton-LeReacteur
+# MARMITON CLONE 🥞🧇
 
-🗓 April 2021.  
-🪄 Frontend - copy of Marmiton's recipe page.
+🌤 April 2021  
+✨ Frontend
 
-## Welcome in my school exercice (copy of Marmiton's recipe page) 🥞 🥐 🥨
+## 🌈 Overview - Welcome dude
 
-Marmiton is France’s leading digital brand focusing on food and cooking. Featuring around 70,000 recipes, since launch Marmiton has strived to make cooking accessible to everyone and unite the world’s food lovers with their shared passion for cooking.
+---
 
-### My work?
+Copy of Marmiton's recipe page made at [Le Reacteur](https://www.lereacteur.io/) Bootcamp.  
+1 web page is available: recipe page.
 
-To code the frontend of Marmiton's recipe page as simple as possible, without grid or Flexbox.
+![Recipe web page](./assets/img/marmiton-final.png)
 
-![Marmiton recipe page](assets/img/marmiton-final.png)
+## 👩🏻‍💻 Tasks
 
-## Languages
+---
 
-HTML5 & CSS3 only
+✘ Integration web: simple CSS (no flexbox or grid)
+
+## 📚 Stacks
+
+---
+
+[HTML5](https://www.w3schools.com/html/default.asp)  
+[CSS3](https://www.w3schools.com/css/default.asp)
 
 🙏🏻 Thank you @LeReacteur.

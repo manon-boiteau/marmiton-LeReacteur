@@ -126,7 +126,7 @@ div[id="images"] {
 
 /* Liste */
 #ingredients ul li {
-  list-style: disc; /* Because of the reset file */
+  list-style: disc; /* Cf. reset file */
   line-height: 22px;
   margin-left: 20px;
 }
